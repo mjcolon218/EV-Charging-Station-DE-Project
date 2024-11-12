@@ -1,11 +1,11 @@
 import psycopg2
-
+import config
 # Database connection details
-rds_endpoint = "ev-db.cpimwkoa8o4d.us-east-2.rds.amazonaws.com"
-db_name = "postgres"
-username = "mjcolon218"
-password = "Bronxnyc86!"
-port = "5432"
+rds_endpoint = config.RDS_ENDPOINT
+db_name = config.DB_NAME
+username = config.DB_USER
+password = config.DB_PASSWORD
+port = config.DB_PORT
 
 # SQL query to create the table with updated schema
 create_table_query = """

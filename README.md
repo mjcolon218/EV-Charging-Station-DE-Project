@@ -91,17 +91,12 @@ Below is a detailed description of each step in the pipeline:
 - The pipeline is designed for local development and cloud deployment. The Python scripts handle data ingestion, cleaning, and loading to AWS RDS.
 - The Tableau dashboard can be shared publicly on Tableau Public for easy access and presentation.
 
-## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs)(Optional)
 - **Station Operational Rate**: Percentage of stations that are operational.
 - **Fast Charging Availability**: Ratio of stations with fast chargers.
 - **24/7 Accessibility Rate**: Percentage of stations available 24/7.
 - **Public vs. Private Station Availability**: Ratio of public to private stations.
 - **Average Connector Diversity**: Average number of connector types per station.
-
-## Installation and Setup
-*Provide instructions on how to set up the project locally, including dependencies and configuration.*
-Here is the **Installation and Setup** section for your README file with the query step updated to use **`psycopg2`** for querying the data instead of using `psql`. You can directly copy and paste this into your README file.
-
 ---
 
 ## **Installation and Setup**
