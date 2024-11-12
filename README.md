@@ -42,8 +42,10 @@ This project addresses these challenges by building an automated, scalable data 
 - **AWS Lambda**: Automation of data ingestion and updates. (optional)
 
 ## Project Architecture
+<img src="images/project_diagram.webp" alt="Project Architecture Diagram" width="600px">
 
-The Electric Vehicle (EV) Charging Station Data Engineering Project is designed to process and analyze data from EV charging stations across the United States. The project pipeline involves several key stages, leveraging AWS cloud services, Python for data processing, PostgreSQL for data storage, and Tableau for visualization. Below is a detailed description of each step in the pipeline:
+The Electric Vehicle (EV) Charging Station Data Engineering Project is designed to process and analyze data from EV charging stations across the United States. The project pipeline involves several key stages, leveraging AWS cloud services, Python for data processing, PostgreSQL for data storage, and Tableau for visualization.
+Below is a detailed description of each step in the pipeline:
 
 ### 1. Data Ingestion
 
