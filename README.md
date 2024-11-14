@@ -318,7 +318,8 @@ This will generate a CSV file (`kpi_ev_charging_data.csv`) in the `data/` folder
 ---
 ## Visualization
 # Dashboard Design | Final Dashboard
-<img src="images/EvMockup.drawio.png" alt="Diagram" width="400px"><img src="images/Dashboard 1.png" alt="Dashboard" style="width: 100%; height: auto;">
+<img src="images/EvMockup.drawio.png" alt="Diagram" width="400px">
+<img src="images/DB.png" alt="Dashboard" style="width: 100%; height: auto;">
 
 
 - working with the container system to design and shape dashboards.
