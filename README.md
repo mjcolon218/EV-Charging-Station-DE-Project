@@ -42,7 +42,7 @@ This project addresses these challenges by building an automated, scalable data 
 - **AWS Lambda**: Automation of data ingestion and updates. (optional)
 
 ## Project Architecture
-<img src="images/project_diagram.webp" alt="Project Architecture Diagram" width="600px">
+<img src="images/layout.png" alt="Project Architecture Diagram" width="800px">
 
 The Electric Vehicle (EV) Charging Station Data Engineering Project is designed to process and analyze data from EV charging stations across the United States. The project pipeline involves several key stages, leveraging AWS cloud services, Python for data processing, PostgreSQL for data storage, and Tableau for visualization.
 Below is a detailed description of each step in the pipeline:
@@ -317,8 +317,12 @@ This will generate a CSV file (`kpi_ev_charging_data.csv`) in the `data/` folder
 
 ---
 ## Visualization
-*Include screenshots or links to the Tableau dashboard.*
+# Dashboard Design | Final Dashboard
+<img src="images/EvMockup.drawio.png" alt="Diagram" width="400px"><img src="images/Dashboard 1.png" alt="Dashboard" style="width: 100%; height: auto;">
 
+
+- working with the container system to design and shape dashboards.
+- Finalized everything with tableau.
 ## Future Enhancements
 - Add real-time data integration with public EV charging APIs.
 - Implement predictive analytics for station usage forecasting.
